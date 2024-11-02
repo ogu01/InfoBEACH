@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="icia.project3jo.dao.memberdao">
+<!-- id속성 : MemberDao의 메소드명-->
+  <insert id="insertMember">
+  INSERT INTO MEMBERS(MEMBERID,MEMBERPW,MEMBERNAME,MEMBERADDR,MEMBEREMAILID,MEMBEREMAILDOMAIN)
+  VALUES(#{memberid},#{memberpw},#{membername},#{memberaddr},#{memberemailid},#{memberemaildomain})
+  
+  </insert>
+  <!-- memberid : "ABCD"
+  	  #{memberid} : 'ABCD'
+  	  ${memberid} : ABCD	
+   -->
+   
+   <select id="selectMemberList" resultType="member">
+   SELECT * FROM MEMBERS
+   </select>
+   
+   <select id="selectMemberInfo" resultType="member">
+   	SELECT *
+   	FROM MEMBERS
+   	WHERE MEMBERID = #{memberid}
+   	
+   		<if test="memberpw != null">
+   		AND MEMBERPW = #{memberpw}
+   		</if>
+   </select>
+   
+   
+   <select id="memberIdCheck"  resultType="String">
+  	SELECT MEMBERID
+   	FROM MEMBERS
+   	WHERE MEMBERID = #{userId}
+   
+   	</select>
+   	
+   	<!-- beachname = 즐겨찾기한 해수욕장 -->
+   	
+   	<insert id="insertFavorite">
+	    INSERT INTO BEACHES (memberid, beachname, beachURL) VALUES (#{memberid}, #{beachname}, #{beachURL}) 
+	</insert>
+
+	<delete id="deleteFavorite">
+		DELETE FROM BEACHES WHERE MEMBERID = #{memberid} AND beachname = #{beachname}
+	</delete>
+
+	<select id="isFavorite" resultType="icia.project3jo.dto.favorite">
+		SELECT * FROM BEACHES WHERE MEMBERID = #{memberid}
+	</select>
+	<insert id="insertbeach">
+	INSERT INTO BEACHLISTES(SIDO_NM, GUGUN_NM,sta_nm,lat,lon)
+	    VALUES( #{sido_nm},#{gugun_nm},#{sta_nm},#{lat},#{lon} )
+
+	</insert>
+	
+	<select id="selectsido" resultType="icia.project3jo.dto.beach">
+	SELECT * FROM BEACHLISTES
+	WHERE STA_NM like '%${searchText}%'
+	</select>
+	
+</mapper>
