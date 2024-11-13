@@ -1,6 +1,6 @@
 
 
-## 🐱 프로젝트 명
+## 🌊 프로젝트 명
 ### 바다보다
 <br><br>
 
@@ -29,10 +29,10 @@
 <img src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=for-the-badge&logo=ApacheTomcat&logoColor=black">
 
 #### IDE
-<img src="https://img.shields.io/badge/Spring Tool Suite-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
+<img src="https://img.shields.io/badge/eclipse%20ide-%232C2255.svg?&style=for-the-badge&logo=eclipse%20ide&logoColor=white" />
 
 #### FrameWork
-<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white"><img src="https://img.shields.io/badge/MyBatis-DD282E?style=for-the-badge&logo=MyBatis&logoColor=white">
+<img src="https://img.shields.io/badge/spring-%236DB33F.svg?&style=for-the-badge&logo=spring&logoColor=white" />
 <br><br><br>
 
 
@@ -100,22 +100,21 @@
 
 ## 📦 주요 기능 요약
 ⭐ 로그인 및 회원가입
-- 회원가입 후 로그인을 하면 Catstagram 서비스를 이용할 수 있습니다.<br><br>
+- 회원가입 후 로그인을 하면 바다보다에서 즐겨찾기 서비스를 이용할 수 있습니다.<br><br>
 
 ⭐ 메인 페이지
-- 내 친구들이 작성한 '일주일 이내의 게시글'을 미리 보거나 상세하게 볼 수 있고 댓글을 달고 '좋아요'를 누를 수 있습니다.
-- 내 친구들이 친구 추가한 사람들이 친구추천 목록에 보여지며 그 사람들을 친구 추가할 수 있습니다.<br><br>
+- 메인 페이지 상단에는 검색 버튼이 위치해 있으며, 사용자가 지역 이름과 해수욕장 이름을 입력하여 빠르게 원하는 지역과 해수욕장을 검색할 수 있습니다.
+- 사용자가 지역을 선택하면 해당 지역의 해수욕장 목록 페이지로 이동합니다.<br><br>
 
-⭐ 회원 검색, 알림 보기
-- 검색창에 아이디를 입력하면 다른 회원들을 검색할 수 있고 친구추가를 할 수 있습니다.
-- 알림 창에서는 다른 회원이 나의 게시글에 댓글을 달거나 나의 댓글에 '좋아요'를 누르거나 친구 추가를 할 경우 알림 아이콘에 빨간 동그라미가 표시되며 알림 목록을 확인할 수 있습니다.<br><br>
+⭐ 해수욕장 목록 페이지
+- 선택한 지역의 해수욕장 목록을 나타내며 우측의 즐겨찾기 버튼을 눌러 즐겨찾기에 등록할 수 있습니다.
+- 날짜와 해수욕장을 선택하면 해수욕장 정보페이지로 이동합니다.<br><br>
 
-⭐ 나의 Catstagram, 게시글 상세 보기
-- 나의 Catstagram에서는 게시물 수와 친구 수를 확인할 수 있고 내가 올린 모든 게시글을 한 눈에 볼 수 있습니다.
-- 게시글 상세 보기에서는 댓글에 '좋아요'를 누르거나 삭제할 수 있으며 게시글에 대한 댓글을 입력하거나 좋아요를 누를 수 있고, 게시글을 수정하거나 삭제할 수 있습니다.<br><br>
+⭐ 해수욕장 정보 페이지
+- 선택한 날짜의 해수욕장 날씨와 주변 맛집 및 해수욕장 정보를 나타냅니다.<br><br>
 
-⭐ 팔로워, 팔로잉 목록
-- 내가 친구추가한 또는 나를 친구추가한 사람의 목록을 볼 수 있고 목록에서 친구 삭제를 하거나 다시 추가할 수 있습니다.<br><br>
+⭐ 즐겨찾기 목록
+-사용자가 즐겨찾기한 해수욕장의 목록을 볼 수 있습니다.<br><br>
 
 ⭐ 프로필 수정, 회원 정보 관리
 - 회원의 정보 또는 프로필을 등록, 수정하고 회원탈퇴를 할 수 있습니다.<br><br>
