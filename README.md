@@ -36,11 +36,6 @@
 <br><br><br>
 
 
-## ⚙️ Usecase
-<img src="https://github.com/lbr410/catstagram/assets/21166946/e2369fe2-9277-421a-8d77-788156cdd759">
-<br><br><br>
-
-
 
 ## 💻 화면 구성
 <table>
