@@ -41,50 +41,38 @@
 <table>
   <tr>
     <th>로그인</th>
-    <th>회원가입</th>
+    <th>메인 페이지</th>
   </tr>
   <tr>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/fa67b9ee-3c6a-4bec-922c-eba9063e95ca" width="100%">
     </td>
     <td align="center">
-      <img src="https://github.com/lbr410/catstagram/assets/21166946/d1fcc8ff-bff9-4c0b-8a5d-5bc08fa6c841" width="60%">
+      <img src="https://github.com/user-attachments/assets/ddcdb37a-216e-4534-bd35-0af6640d5256" width="100%">
     </td>
   </tr>
   <tr>
-    <th>메인 페이지</th>
-    <th>친구 추천</th>
+    <th>마이 페이지</th>
+    <th>검색창</th>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/lbr410/catstagram/assets/21166946/10ad521f-4d75-48f8-9ad0-3f595631bc4f" width="80%">
+      <img src="https://github.com/user-attachments/assets/c824c804-ec24-4097-bcdf-68184674a283" width="100%">
     </td>
     <td align="center">
-      <img src="https://github.com/lbr410/catstagram/assets/21166946/72e1e102-56bb-4816-9e75-587e2e558e87" width="80%">
-    </td>
-  </tr>
-  <tr>
-    <th>나의 Catstagram</th>
-    <th>피드 상세 보기</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/lbr410/catstagram/assets/21166946/49068a0e-1615-467a-a0fb-4372dd895541" width="80%">
-    </td>
-    <td align="center">
-      <img src="https://github.com/lbr410/catstagram/assets/21166946/a833384a-c6d0-4cae-8d0e-5a29c61ea3a3" width="80%">
+      <img src="https://github.com/user-attachments/assets/ac7b0290-5980-4a98-86c7-83d0a4c1b78d" width="100%">
     </td>
   </tr>
   <tr>
-    <th>팔로워</th>
-    <th>팔로잉</th>
+    <th>검색 결과</th>
+    <th>해수욕장 상세 정보</th>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/lbr410/catstagram/assets/21166946/2518f10e-7bac-4215-b65c-7b198d130043" width="80%">
+      <img src="https://github.com/user-attachments/assets/04300bd6-ccbc-4d2d-b97e-a1570e61ee08" width="100%">
     </td>
     <td align="center">
-      <img src="https://github.com/lbr410/catstagram/assets/21166946/b8b838ca-e764-480c-8aee-cbc8d2ed744c" width="80%">
+      <img src="https://github.com/user-attachments/assets/fb8dcc2d-db87-4707-b2c4-6c0377220d69" width="100%">
     </td>
   </tr>
 </table>
