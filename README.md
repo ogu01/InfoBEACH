@@ -45,7 +45,7 @@
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/lbr410/catstagram/assets/21166946/f3cba5d3-2b0e-4505-b08f-24f016714ba8" width="60%">
+      <img src="https://github.com/user-attachments/assets/fa67b9ee-3c6a-4bec-922c-eba9063e95ca" width="60%">
     </td>
     <td align="center">
       <img src="https://github.com/lbr410/catstagram/assets/21166946/d1fcc8ff-bff9-4c0b-8a5d-5bc08fa6c841" width="60%">
